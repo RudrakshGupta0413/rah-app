@@ -1,10 +1,10 @@
-import Gallery from "@/components/Gallery";
+import OrderNow from "@/components/OrderNow";
 
 
 export default function TestimonialPage() {
   return (
     <main className="pt-20">
-      <Gallery />
+      <OrderNow />
     </main>
   );
 }

@@ -15,13 +15,23 @@ const Navbar = () => {
         </Link>
 
         <div className="hidden md:flex space-x-16 text-md font-medium text-[#4a301f]">
-          <Link href="/about" className="py-2">About</Link>
-          <Link href="/gallery" className="py-2">Gallery</Link>
-          <Link href="/services" className="py-2">Services</Link>
-          <Link href="/testimonials"className="py-2" >Testimonials</Link>
-          <button className="bg-[#7e6e61] text-white px-3 py-2 rounded hover:cursor-pointer">
-            Order Now
-          </button>
+          <Link href="/about" className="py-2">
+            About
+          </Link>
+          <Link href="/gallery" className="py-2">
+            Gallery
+          </Link>
+          <Link href="/services" className="py-2">
+            Services
+          </Link>
+          <Link href="/testimonials" className="py-2">
+            Testimonials
+          </Link>
+          <Link href="/order-now">
+            <button className="bg-[#7e6e61] text-white px-3 py-2 rounded hover:cursor-pointer">
+              Order Now
+            </button>
+          </Link>
         </div>
 
         <div className="md:hidden">
@@ -44,9 +54,11 @@ const Navbar = () => {
           <Link href="/gallery">Gallery</Link>
           <Link href="/services">Services</Link>
           <Link href="/testimonials">Testimonials</Link>
-          <button className="bg-[#4a301f] text-white px-3 py-1 rounded hover:cursor-pointer">
-            Order Now
-          </button>
+          <Link href="/order-now">
+            <button className="bg-[#4a301f] text-white px-3 py-1 rounded hover:cursor-pointer">
+              Order Now
+            </button>
+          </Link>
         </div>
       )}
     </nav>
