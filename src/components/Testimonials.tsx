@@ -39,7 +39,7 @@ export default function Testimonials() {
       <h2 className="text-6xl font-bold text-center text-[#5b3926] mb-12 font-love text-shadow-sm">
         Testimonials
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 sm:gap-10">
         {testimonials.map((item, i) => (
           <div
             key={i}

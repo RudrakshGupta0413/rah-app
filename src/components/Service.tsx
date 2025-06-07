@@ -34,7 +34,7 @@ const Services = () => {
     <section id="services" className="bg-[#fdfbf6] py-12 px-4 md:px-20">
       <h2 className="text-6xl font-bold font-love text-center text-[#5b3926] mb-10">Services</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-12">
         {services.map((service, index) => (
           <div key={index} className="bg-[#fdfbf6]rounded-xl overflow-hidden">
             <div className="relative w-full h-[700px] rounded-2xl overflow-hidden shadow-[8px_8px_10px_rgba(0,0,0,0.2)]">
