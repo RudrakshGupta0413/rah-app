@@ -30,9 +30,9 @@ export default function Footer() {
         <div className="text-center md:text-left">
           <h3 className="text-xl font-semibold mb-4">Social Media</h3>
           <ul className="space-y-3 text-lg">
-            <li><a href="#" className="hover:underline" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-            <li><a href="#" className="hover:underline" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="#" className="hover:underline" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
+            <li><a href=" https://www.instagram.com/__ruchi_art_house__/" className="hover:underline" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href=" https://www.facebook.com/profile.php?id=100086464053352" className="hover:underline" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href=" https://in.pinterest.com/ruchiarthouse933/" className="hover:underline" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
           </ul>
         </div>
       </div>

@@ -36,9 +36,9 @@ export default function OrderNow() {
             <div className="px-3">
               <p className="mb-1 font-medium">Address</p>
               <p>
-                Kadipur, Dharampura, Ward No.12
+                Kalipur, Dharampura, Ward No.12
                 <br />
-                Janjgir, Chhattisgarh 495001
+                Jagdalpur, Chhattisgarh 494001
               </p>
             </div>
           </div>
