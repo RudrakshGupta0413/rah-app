@@ -46,7 +46,7 @@ const Services = () => {
                 className="w-full h-[700px] object-cover object-top rounded-2xl shadow-2xl"
               />
               <div className="absolute top-20 bg-white/70 px-10 py-6 ">
-                <h3 className="text-4xl md:text-4xl sm:text-2xl font-sriracha text-gray-700 text-center">
+                <h3 className="text-4xl md:text-4xl sm:text-2xl font-sriracha text-[#4B4B4B] text-center">
                   {service.title.split(" ").slice(0, 2).join(" ")}
                   <br />
                   {service.title.split(" ").slice(2).join(" ")}
