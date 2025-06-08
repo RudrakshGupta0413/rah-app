@@ -2,22 +2,22 @@
 const About = () => {
   return (
     <section id="about" className="bg-[#fdfbf6] py-16 px-6 md:px-20">
-      <h2 className="text-6xl font-bold text-center text-[#5b3926] mb-8 font-serif">
+      <h2 className="text-7xl font-sister text-center text-[#5b3926] mb-8">
         About
       </h2>
       <div className="flex flex-col md:flex-row items-center gap-10 mb-10 px-4 sm:px-10">
         {/* Founder Image and Name */}
         <div className="flex flex-col items-center text-center mb-8 md:mb-0 md:w-1/3 lg:w-1/4 flex-shrink-0">
-          <div className="h-40 w-40 sm:w-52 sm:h-52 p-2 rounded-lg bg-white flex items-center justify-center shadow-lg">
+          <div className="h-40 w-40 sm:w-52 sm:h-52 rounded-lg flex items-center justify-center shadow-lg">
             <img
               src="/Founder.png" // Ensure this path is correct
               alt="Founder"
               className="object-cover h-full w-full rounded-lg"
             />
           </div>
-          <p className="font-semibold text-xl mt-2 text-[#5b3926]">
+          <p className="font-sister text-3xl mt-2 text-[#5b3926]">
             Ruchika{" "}
-            <span className="text-gray-600 text-sm font-normal block">
+            <span className="text-gray-600 text-lg font-normal block">
               (Founder)
             </span>
           </p>

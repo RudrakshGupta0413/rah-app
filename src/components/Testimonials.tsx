@@ -36,7 +36,7 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section className="bg-[#fdfbf6] py-16 px-4 md:px-20">
-      <h2 className="text-6xl font-bold text-center text-[#5b3926] mb-12 font-love text-shadow-sm">
+      <h2 className="text-7xl font-sister text-center text-[#5b3926] mb-12 font-love text-shadow-sm">
         Testimonials
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 sm:gap-10">

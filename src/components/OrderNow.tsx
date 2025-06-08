@@ -19,7 +19,7 @@ export default function OrderNow() {
   const [message, setMessage] = useState("");
   return (
     <section className="bg-[#fdfbf6] min-h-screen py-10 px-4 sm:px-6 md:py-16 md:px-5 lg:py-20 lg:px-20 text-[#5b3926] font-serif">
-      <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-[#5b3926] text-center mb-10 md:mb-12 lg:mb-16 font-love">
+      <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-sister text-[#5b3926] text-center mb-10 md:mb-12 lg:mb-16 font-love">
         Order Now
       </h2>
 

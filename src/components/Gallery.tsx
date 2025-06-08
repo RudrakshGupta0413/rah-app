@@ -2,8 +2,8 @@
 export default function Gallery() {
   return (
     <div className="bg-[#fdfbf6] min-h-screen w-full py-10 px-6 md:px-20 text-[#5b3926] font-serif">
-      <h2 className="text-6xl font-bold text-center mb-2">Gallery</h2>
-      <p className="text-center text-sm italic mb-10">
+      <h2 className="text-7xl font-sister text-center mb-2">Gallery</h2>
+      <p className="text-center text-2xl italic mb-10">
         A Glimpse Into Our Creations
       </p>
 

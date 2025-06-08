@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "@fontsource/love-ya-like-a-sister";
+@import "@fontsource/sriracha";
 
 :root {
   --background: #fdfbf6;
@@ -10,6 +12,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-sister: "Love Ya Like A Sister", sans-serif;
+  --font-sriracha: "Sriracha", cursive;
 }
 
 @media (prefers-color-scheme: dark) {

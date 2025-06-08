@@ -31,20 +31,20 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="bg-[#fdfbf6] py-12 px-4 md:px-20">
-      <h2 className="text-6xl font-bold font-love text-center text-[#5b3926] mb-10">Services</h2>
+    <section id="services" className="bg-[#fdfbf6] py-12 px-5 md:px-10">
+      <h2 className="text-7xl font-sister font-love text-center text-[#5b3926] mb-10">Services</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
         {services.map((service, index) => (
           <div key={index} className="bg-[#fdfbf6]rounded-xl overflow-hidden">
-            <div className="relative w-full h-[700px] rounded-2xl overflow-hidden shadow-[8px_8px_10px_rgba(0,0,0,0.2)]">
+            <div className="relative w-full h-[700px] rounded-2xl overflow-hidden shadow">
               <img
                 src={service.image}
                 alt={service.title}
-                className="w-full h-[700px] object-cover object-top rounded-2xl"
+                className="w-full h-[700px] object-cover object-top rounded-2xl shadow-2xl"
               />
-              <div className="absolute top-20 left-0 bg-white/70 px-12 py-10 ">
-                <h3 className="text-2xl font-semibold italic text-gray-700 text-center">
+              <div className="absolute top-20 left-1/2 -translate-x-1/2 bg-white/70 px-12 py-10 ">
+                <h3 className="text-4xl md:text-2xl sm:text-2xl font-sriracha text-gray-700 text-center whitespace-nowrap">
                   {service.title}
                 </h3>
               </div>
