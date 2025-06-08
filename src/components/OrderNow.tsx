@@ -9,6 +9,7 @@ import {
   ShoppingCart,
 } from "lucide-react";
 import { useState }  from "react";
+import { FaPinterest } from "react-icons/fa";
 
 export default function OrderNow() {
   const [name, setName] = useState("");
@@ -69,7 +70,7 @@ export default function OrderNow() {
             </div>
             <div className="px-3">
               <p className="mb-1 font-medium">Instagram</p>
-              <p>__ruchi_art_house__</p>
+              <p>@__ruchi_art_house__</p>
             </div>
           </div>
 
@@ -84,7 +85,7 @@ export default function OrderNow() {
           </div>
 
           <div className="flex flex-row items-start">
-            <div>{/* <Pinterest /> */}</div>
+            <div><FaPinterest className="mt-1" /></div>
             <div className="px-3">
               <p className="mb-1 font-medium">Pinterest</p>
               <p>@ruchiarthouse933</p>
