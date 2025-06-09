@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <div
       className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/bg.jpg')" }}
     >
       {/* <div
         className="h-screen w-full bg-center bg-no-repeat bg-contain"

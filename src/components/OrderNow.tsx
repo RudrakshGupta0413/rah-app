@@ -126,7 +126,7 @@ export default function OrderNow() {
             *Alternate Contact:* ${altContact}\n
             *Address:* ${address}\n
             *Message:* ${message}`;
-              const whatsappNumber = "6260150731";
+              const whatsappNumber = "9635923636";
               const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
                 messageData
               )}`;
