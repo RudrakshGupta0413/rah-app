@@ -50,7 +50,7 @@ export default function OrderNow() {
             </div>
             <div className="px-3">
               <p className="mb-1 font-medium">Phone</p>
-              <p>(+91) 9635923636</p>
+              <p>(+91) 9685926366</p>
             </div>
           </div>
 
