@@ -217,7 +217,7 @@ export default function OrderNow() {
               type="submit"
               className="w-full bg-[#7e6e61] text-white py-2 rounded hover:bg-[#6d5c4e] transition hover:cursor-pointer"
             >
-              Order Now
+              Order Now 
             </button>
           </form>
         </div>
