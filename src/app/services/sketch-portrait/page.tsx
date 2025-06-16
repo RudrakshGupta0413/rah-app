@@ -7,14 +7,14 @@ const SketchPortraitPage = () => {
     "/sp5.png", "/sp6.png", "/sp7.png", "/sp8.png"
   ];
   const priceList = [
-    { size: "A4 size single person", price: "899/-" },
-    { size: "A4 size two person", price: "1,799/-" },
+    { size: "A4 size single person", price: "1499/-" },
+    { size: "A4 size two person", price: "2,998/-" },
     { size: "A3 size single person", price: "1,999/-" },
-    { size: "A3 size two person", price: "3,999/-" },
+    { size: "A3 size two person", price: "3,998/-" },
     { size: "A2 size single person", price: "2,999/-" },
-    { size: "A2 size two person", price: "5,999/-" },
+    { size: "A2 size two person", price: "5,998/-" },
     { size: "A1 size single person", price: "4,999/-" },
-    { size: "A1 size two person", price: "9,999/-" },
+    { size: "A1 size two person", price: "9,998/-" },
   ];
 
   return <ServiceDetails title={title} images={images} priceList={priceList} />;

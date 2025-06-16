@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex flex-col items-center text-center mb-8 md:mb-0 md:w-1/3 lg:w-1/4 flex-shrink-0">
           <div className="h-40 w-40 sm:w-52 sm:h-52 rounded-lg flex items-center justify-center shadow-lg">
             <img
-              src="/Founder.png" // Ensure this path is correct
+              src="/Founder2.png" // Ensure this path is correct
               alt="Founder"
               className="object-cover h-full w-full rounded-lg"
             />

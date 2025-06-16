@@ -9,12 +9,13 @@ const FacelessCanvasPage = () => {
   const priceList = [
     { size: "4×4” canvas", price: "349/-" },
     { size: "4×6” canvas", price: "379/-" },
-    { size: "5×5” canvas", price: "399/-" },
-    { size: "5×7” canvas", price: "449/-" },
-    { size: "6×6” canvas", price: "499/-" },
-    { size: "6×8” canvas", price: "549/-" },
-    { size: "8×10” canvas", price: "799/-" },
-    { size: "10×12” canvas", price: "999/-" },
+    { size: "5×5” canvas", price: "449/-" },
+    { size: "5×7” canvas", price: "499/-" },
+    { size: "6×6” canvas", price: "599/-" },
+    { size: "6×8” canvas", price: "799/-" },
+    { size: "8×10” canvas", price: "1,499/-" },
+    { size: "10×12” canvas", price: "2,499/-" },
+    { size: "16×12” canvas", price: "3,499/-" },
   ];
 
   return <ServiceDetails title={title} images={images} priceList={priceList} />;

@@ -7,14 +7,14 @@ const EmbroideryHoopPage = () => {
     "/eh5.png", "/eh6.png", "/eh7.png", "/eh8.png"
   ];
   const priceList = [
-    { size: "4” Embroidery Frame", price: "349/-" },
-    { size: "6” Embroidery Frame", price: "499/-" },
-    { size: "7” Embroidery Frame", price: "699/-" },
-    { size: "8” Embroidery Frame", price: "899/-" },
-    { size: "10” Embroidery Frame", price: "1,099/-" },
-    { size: "12” Embroidery Frame", price: "1,299/-" },
-    { size: "16” Embroidery Frame", price: "2,499/-" },
-    { size: "18” Embroidery Frame", price: "3,599/-" },
+    { size: "4” Embroidery Frame", price: "399/-" },
+    { size: "6” Embroidery Frame", price: "599/-" },
+    { size: "7” Embroidery Frame", price: "999/-" },
+    { size: "8” Embroidery Frame", price: "1,299/-" },
+    { size: "10” Embroidery Frame", price: "2,499/-" },
+    { size: "12” Embroidery Frame", price: "2,999/-" },
+    { size: "16” Embroidery Frame", price: "3,499/-" },
+    { size: "18” Embroidery Frame", price: "4,999/-" },
   ];
 
   return <ServiceDetails title={title} images={images} priceList={priceList} />;
